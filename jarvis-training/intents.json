@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "bye", "ok bye", "see you soon", "see you", "see ya"],
+      "responses": ["Goodbye! Have a great day.", "See you later!"]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["tell me about", "what is", "who is", "search Wikipedia for"],
+      "responses": ["Searching Wikipedia...", "According to Wikipedia, {result}."]
+    },
+    {
+      "tag": "open_app",
+      "patterns": ["open youtube", "open google", "open gmail", "open stackoverflow"],
+      "responses": ["Opening {app}...", "{app} is now open."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["weather in", "temperature in", "how's the weather in"],
+      "responses": ["Sure, let me check the weather for you.", "The current weather is {result}."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what's the time", "tell me the time", "current time"],
+      "responses": ["The current time is {result}."]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["who are you", "what can you do", "introduce yourself"],
+      "responses": ["I am G-One, your personal assistant. I can help you with various tasks."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "who discovered you", "who invented you"],
+      "responses": ["I was built by Aditi, Nidhi, Nishi, and Ritika."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news", "headlines", "top news", "today's news"],
+      "responses": ["Here are some headlines. Happy reading!"]
+    },
+    {
+      "tag": "camera",
+      "patterns": ["take a photo", "capture", "camera", "click a picture", "click a photo"],
+      "responses": ["Sure, capturing a photo for you...", "Photo captured and saved as img.jpg."]
+    },
+    {
+      "tag": "search",
+      "patterns": ["search for", "look up", "find"],
+      "responses": ["Searching the web for {query}...", "Here are the search results for {query}."]
+    },
+    {
+      "tag": "log_off",
+      "patterns": ["log off", "sign out", "log out"],
+      "responses": ["Logging off. Please make sure to exit all applications."]
+    },
+    {
+      "tag": "perform_eda",
+      "patterns": ["perform exploratory data analysis", "analyze data", "analyse data"],
+      "responses": ["Sure, please provide the path to the CSV file for analysis."]
+    },
+    {
+      "tag": "reminder",
+      "patterns": ["set a reminder", "remind me to", "create a reminder for"],
+      "responses": ["Sure, I'll remind you to {task} at {time}."]
+    },
+    {
+      "tag": "to_do_list",
+      "patterns": ["create a to-do", "add a task", "to-do list"],
+      "responses": ["Sure, added {task} to your to-do list."]
+    },
+    {
+      "tag": "show_to_do_list",
+      "patterns": ["show my to-do list", "what's on my to-do list", "view my tasks"],
+      "responses": ["Here's your to-do list:", "{tasks}"]
+    },
+    {
+      "tag": "complete_task",
+      "patterns": ["mark task as complete", "complete", "finish task"],
+      "responses": ["Great! You've marked '{task}' as completed."]
+    },
+    {
+      "tag": "remove_task",
+      "patterns": ["remove task", "delete task", "forget task"],
+      "responses": ["'{task}' has been removed from your to-do list."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name", "who are you called", "your name"],
+      "responses": ["You can call me Dhwani .", "I go by the name Dhwani."]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "play music",
+        "play {genre} music",
+        "music please",
+        "song for me",
+        "play {artist}'s songs",
+        "shuffle my playlist"
+      ],
+      "responses": [
+        "Sure, playing some {genre} tunes for you.",
+        "Enjoy the {mood} music!",
+        "Here's a song for you: {song}.",
+        "Let's listen to some {artist} tracks!",
+        "Shuffling your playlist. Sit back and enjoy!"
+      ]
+    }, 
+    {
+      "tag": "open_teams_app",
+      "patterns": ["open teamas app", "launch teamas", "start teamas", "access teamas"],
+      "responses": ["Opening Teamas app...", "Teamas app is now launching."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that. Can you please repeat?"]
+    },
+    {
+      "tag": "send_email",
+      "patterns": ["send an email to {person}", "compose email to {person}", "email {person}"],
+      "responses": ["Sure, opening your email client for {person}...", "Let's compose an email to {person}."]
+    }     
+  ]
+}
